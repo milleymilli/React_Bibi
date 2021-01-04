@@ -19,6 +19,7 @@ const App = () => {
         </section>
         <section className="main_section">
           {routes}
+          <section className="toggle-chapter__list"></section>
         </section>
         <Footer />
       </Context.Provider>

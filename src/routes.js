@@ -1,11 +1,12 @@
 import React from 'react';
-
+import Home from './bib/pages/Home';
 import NewTestament from './bib/pages/NewTestament';
 import OldTestament from './bib/pages/OldTestament';
 import Settings from './bib/pages/Settings';
 
 const routes = {
-    '/': () => <OldTestament />,
+    '/': () => <Home />,
+    '/OldTestament': () => <OldTestament />,
     '/NewTestament': () => <NewTestament />,
     '/settings': () => <Settings />
 
