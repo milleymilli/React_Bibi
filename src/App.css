@@ -4,7 +4,6 @@ body{
 }
 
 .container{
-    background-color: rgb(95, 117, 117);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,7 +15,6 @@ body{
     justify-content: space-between;
     box-sizing: border-box;
     background-color: whitesmoke;
-    border: .3rem solid rgb(235, 224, 72);
     margin: .5rem 0;
     overflow-y: scroll;
     }
@@ -35,7 +33,6 @@ body{
 .toggle-chapter__list{
    visibility: hidden;
     width: 25%;
-    background-color: greenyellow;
     height: 160vh;
     float: right;
 
